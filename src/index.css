@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -63,6 +68,7 @@ code {
 }
 .mealImg p{
   font-weight: 600;
+  margin: 1rem auto;
 }
 .mealImg button{
   width: 120px;
@@ -81,7 +87,7 @@ code {
  }
  .mealInfo {
   /* width: 90%; */
-  height: 90vh;
+  height: 100vh;
   margin: auto;
   display: flex;
   gap: 22px;
@@ -107,3 +113,10 @@ code {
 .head{
   text-align: center;
 }
+
+
+
+
+
+
+
